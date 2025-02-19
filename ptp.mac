@@ -1,0 +1,46 @@
+#------------------------------------------------------------
+# runPhotonBombNextToFirstLayer.mac
+#
+# This macro launches a photon bomb of 128 nm optical photons from a
+# position adjacent to the innermost (PTP) layer—specifically, on the side
+# farthest from the reflector.
+#
+# Geometry assumptions (all positions in mm):
+#   Overall container (LAr_main) contains five adjacent layers arranged along the x-axis:
+#     PTP:      x from -12.5 to -6.5  (center at -9.5 mm)
+#     LAr_gap1: x from -6.5 to -0.5   (center at -3.5 mm)
+#     WLS:      x from -0.5 to +5.5   (center at +2.5 mm)
+#     LAr_gap2: x from +5.5 to +11.5  (center at +8.5 mm)
+#     Reflector: x from +11.5 to +12.5 (center at +12.0 mm)
+#
+# The photon bomb is generated at x = -13.0 mm (just left of the PTP layer),
+# y = 0, z = 0.
+#
+# All photon energies are in SI units (Joules) and 128 nm corresponds to ~1.55e-18 J.
+#------------------------------------------------------------
+
+# Initialize the geometry (assuming the GEO file with layered structure is loaded)
+ /rat/geometry/initialize
+
+# --- Set up the photon bomb ---
+# Select optical photon as the particle type
+/rat/generator/setParticle opticalphoton
+
+# Set photon energy corresponding to 128 nm (~1.55e-18 Joules)
+ /rat/generator/setPhotonEnergy 1.55e-18
+
+# Set the photon bomb position to just outside the PTP layer, on the side away from the reflector.
+# PTP extends from x = -12.5 to -6.5 mm, so choose x = -13.0 mm.
+ /rat/parameter/set BombPosX -13.0
+/rat/generator/setPosition ${BombPosX} 0.0 0.0
+
+# Set the emission to be isotropic
+ /rat/generator/setIsotropic true
+
+# Generate the photon bomb with, for example, 10000 photons
+ /rat/generator/generate 10000
+
+# Begin the run (1 event)
+ /rat/run/beamOn 1
+
+

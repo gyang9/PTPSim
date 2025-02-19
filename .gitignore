@@ -1,0 +1,9 @@
+bin/*
+*.root
+*.log
+*.o
+theia.sh
+.jukit
+install/*
+build/*
+Config.hh

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export PTPDATA=@PTPSHARE@
+export PATH=@PTPROOT@/bin:$PATH
+export LD_LIBRARY_PATH=@PTPROOT@/lib:$LD_LIBRARY_PATH
