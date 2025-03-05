@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../lib/libPTP.pdb"
   "../lib/libPTP.so"
+  "CMakeFiles/PTP.dir/GeoPTPCoatingFactory.cc.o"
+  "CMakeFiles/PTP.dir/GeoPTPCoatingFactory.cc.o.d"
   "CMakeFiles/PTP.dir/GeoPtpFactory.cc.o"
   "CMakeFiles/PTP.dir/GeoPtpFactory.cc.o.d"
   "CMakeFiles/PTP.dir/HitmanProc.cc.o"

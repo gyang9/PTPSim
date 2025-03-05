@@ -189,6 +189,30 @@ ptp/fast:
 	cd /home/guang/work/PTP/PTPSim/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ptp.dir/build.make src/CMakeFiles/ptp.dir/build
 .PHONY : ptp/fast
 
+GeoPTPCoatingFactory.o: GeoPTPCoatingFactory.cc.o
+.PHONY : GeoPTPCoatingFactory.o
+
+# target to build an object file
+GeoPTPCoatingFactory.cc.o:
+	cd /home/guang/work/PTP/PTPSim/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/PTP.dir/build.make src/CMakeFiles/PTP.dir/GeoPTPCoatingFactory.cc.o
+.PHONY : GeoPTPCoatingFactory.cc.o
+
+GeoPTPCoatingFactory.i: GeoPTPCoatingFactory.cc.i
+.PHONY : GeoPTPCoatingFactory.i
+
+# target to preprocess a source file
+GeoPTPCoatingFactory.cc.i:
+	cd /home/guang/work/PTP/PTPSim/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/PTP.dir/build.make src/CMakeFiles/PTP.dir/GeoPTPCoatingFactory.cc.i
+.PHONY : GeoPTPCoatingFactory.cc.i
+
+GeoPTPCoatingFactory.s: GeoPTPCoatingFactory.cc.s
+.PHONY : GeoPTPCoatingFactory.s
+
+# target to generate assembly for a file
+GeoPTPCoatingFactory.cc.s:
+	cd /home/guang/work/PTP/PTPSim/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/PTP.dir/build.make src/CMakeFiles/PTP.dir/GeoPTPCoatingFactory.cc.s
+.PHONY : GeoPTPCoatingFactory.cc.s
+
 GeoPtpFactory.o: GeoPtpFactory.cc.o
 .PHONY : GeoPtpFactory.o
 
@@ -347,6 +371,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... PTP"
 	@echo "... ptp"
+	@echo "... GeoPTPCoatingFactory.o"
+	@echo "... GeoPTPCoatingFactory.i"
+	@echo "... GeoPTPCoatingFactory.s"
 	@echo "... GeoPtpFactory.o"
 	@echo "... GeoPtpFactory.i"
 	@echo "... GeoPtpFactory.s"

@@ -98,12 +98,12 @@ src/clean: src/CMakeFiles/ptp.dir/clean
 src/CMakeFiles/PTP.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/PTP.dir/build.make src/CMakeFiles/PTP.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/PTP.dir/build.make src/CMakeFiles/PTP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guang/work/PTP/PTPSim/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target PTP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guang/work/PTP/PTPSim/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target PTP"
 .PHONY : src/CMakeFiles/PTP.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/PTP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guang/work/PTP/PTPSim/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guang/work/PTP/PTPSim/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/PTP.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guang/work/PTP/PTPSim/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/PTP.dir/rule
@@ -124,12 +124,12 @@ src/CMakeFiles/PTP.dir/clean:
 src/CMakeFiles/ptp.dir/all: src/CMakeFiles/PTP.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ptp.dir/build.make src/CMakeFiles/ptp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ptp.dir/build.make src/CMakeFiles/ptp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guang/work/PTP/PTPSim/build/CMakeFiles --progress-num=7,8 "Built target ptp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guang/work/PTP/PTPSim/build/CMakeFiles --progress-num=8,9 "Built target ptp"
 .PHONY : src/CMakeFiles/ptp.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/ptp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guang/work/PTP/PTPSim/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guang/work/PTP/PTPSim/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ptp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guang/work/PTP/PTPSim/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/ptp.dir/rule

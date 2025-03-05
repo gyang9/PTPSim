@@ -514,6 +514,21 @@ src/CMakeFiles/ptp.dir/ptp.cpp.o: ../src/ptp.cpp \
   /usr/local/include/Geant4/G4VPhysicalVolume.hh \
   /usr/local/include/Geant4/G4VSolid.hh \
   /usr/local/include/Geant4/G4VSolid.icc \
+  ../src/include/GeoPTPCoatingFactory.hh \
+  /usr/local/include/Geant4/G4OpticalSurface.hh \
+  /usr/local/include/Geant4/G4Physics2DVector.hh \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/local/include/Geant4/G4PhysicsVectorType.hh \
+  /usr/local/include/Geant4/G4Physics2DVector.icc \
+  /usr/local/include/Geant4/G4SurfaceProperty.hh \
+  /usr/local/include/Geant4/G4VisAttributes.hh \
+  /usr/local/include/Geant4/graphics_reps_defs.hh \
+  /usr/local/include/Geant4/G4Colour.hh \
+  /usr/local/include/Geant4/G4Color.hh \
+  /usr/local/include/Geant4/G4VisAttributes.icc \
   ../src/include/HitmanProc.hh \
   ../src/include/NtupleProc.hh \
   /home/guang/work/ratpac-two/install/include/RAT/OutNtupleProc.hh \
@@ -522,17 +537,12 @@ src/CMakeFiles/ptp.dir/ptp.cpp.o: ../src/ptp.cpp \
   /usr/local/include/Geant4/CLHEP/Random/RandGeneral.h \
   /usr/local/include/Geant4/CLHEP/Random/Random.h \
   /usr/local/include/Geant4/CLHEP/Random/RandomEngine.h \
-  /usr/include/c++/11/fstream \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
   /usr/local/include/Geant4/CLHEP/Random/RandomEngine.icc \
   /usr/local/include/Geant4/CLHEP/Random/Random.icc \
   /usr/local/include/Geant4/CLHEP/Utility/memory.h \
   /usr/local/include/Geant4/CLHEP/Random/RandGeneral.icc \
   /home/guang/work/ratpac-two/install/include/RAT/GLG4Gen.hh \
-  /usr/local/include/Geant4/G4Color.hh \
-  /usr/local/include/Geant4/G4Colour.hh
+  /usr/local/include/Geant4/G4Color.hh
 
 
 /usr/local/include/Geant4/CLHEP/Utility/memory.h:
@@ -541,17 +551,25 @@ src/CMakeFiles/ptp.dir/ptp.cpp.o: ../src/ptp.cpp \
 
 /usr/local/include/Geant4/CLHEP/Random/RandomEngine.icc:
 
+/usr/local/include/Geant4/CLHEP/Random/Random.h:
+
+/home/guang/work/ratpac-two/install/include/RAT/Gen_LED.hh:
+
+../src/include/LaserballGenerator.hh:
+
+/usr/local/include/Geant4/G4SurfaceProperty.hh:
+
+/usr/local/include/Geant4/G4Physics2DVector.icc:
+
+/usr/local/include/Geant4/G4PhysicsVectorType.hh:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
 
 /usr/include/c++/11/fstream:
 
-/usr/local/include/Geant4/CLHEP/Random/Random.h:
-
-/home/guang/work/ratpac-two/install/include/RAT/Gen_LED.hh:
-
-../src/include/LaserballGenerator.hh:
+/usr/local/include/Geant4/G4OpticalSurface.hh:
 
 /usr/local/include/Geant4/G4VSolid.hh:
 
@@ -692,6 +710,8 @@ src/CMakeFiles/ptp.dir/ptp.cpp.o: ../src/ptp.cpp \
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
 /usr/local/include/Geant4/G4EnvironmentUtils.hh:
+
+/usr/local/include/Geant4/G4VisAttributes.icc:
 
 /usr/local/include/Geant4/G4ExceptionSeverity.hh:
 
@@ -1187,6 +1207,8 @@ src/CMakeFiles/ptp.dir/ptp.cpp.o: ../src/ptp.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
+../src/include/GeoPTPCoatingFactory.hh:
+
 ../src/include/Config.hh:
 
 /usr/include/c++/11/cstdlib:
@@ -1391,6 +1413,8 @@ src/CMakeFiles/ptp.dir/ptp.cpp.o: ../src/ptp.cpp \
 
 /home/guang/work/ratpac-two/install/include/RAT/Rat.hh:
 
+/usr/local/include/Geant4/G4VisAttributes.hh:
+
 /home/guang/work/root_src/install/include/TStopwatch.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
@@ -1398,6 +1422,8 @@ src/CMakeFiles/ptp.dir/ptp.cpp.o: ../src/ptp.cpp \
 /usr/include/string.h:
 
 /usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/local/include/Geant4/graphics_reps_defs.hh:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -1506,6 +1532,8 @@ src/CMakeFiles/ptp.dir/ptp.cpp.o: ../src/ptp.cpp \
 /usr/include/c++/11/bits/erase_if.h:
 
 /home/guang/work/ratpac-two/install/include/RAT/DB.hh:
+
+/usr/local/include/Geant4/G4Physics2DVector.hh:
 
 /home/guang/work/ratpac-two/install/include/RAT/DBTable.hh:
 

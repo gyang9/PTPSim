@@ -3,6 +3,7 @@
 /usr/local/include/NtupleProc.hh
 /usr/local/include/Config.hh
 /usr/local/include/LaserballGenerator.hh
+/usr/local/include/GeoPTPCoatingFactory.hh
 /usr/local/include/HitmanProc.hh
 /usr/local/include/GeoPtpFactory.hh
 /usr/local/include/Ptp.hh

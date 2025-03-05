@@ -447,6 +447,21 @@ src/CMakeFiles/PTP.dir/Ptp.cc.o: /home/guang/work/PTP/PTPSim/src/Ptp.cc \
  /usr/local/include/Geant4/G4VPhysicalVolume.hh \
  /usr/local/include/Geant4/G4VSolid.hh \
  /usr/local/include/Geant4/G4VSolid.icc \
+ /home/guang/work/PTP/PTPSim/src/include/GeoPTPCoatingFactory.hh \
+ /usr/local/include/Geant4/G4OpticalSurface.hh \
+ /usr/local/include/Geant4/G4Physics2DVector.hh \
+ /usr/include/c++/11/fstream \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+ /usr/include/c++/11/bits/fstream.tcc \
+ /usr/local/include/Geant4/G4PhysicsVectorType.hh \
+ /usr/local/include/Geant4/G4Physics2DVector.icc \
+ /usr/local/include/Geant4/G4SurfaceProperty.hh \
+ /usr/local/include/Geant4/G4VisAttributes.hh \
+ /usr/local/include/Geant4/graphics_reps_defs.hh \
+ /usr/local/include/Geant4/G4Colour.hh \
+ /usr/local/include/Geant4/G4Color.hh \
+ /usr/local/include/Geant4/G4VisAttributes.icc \
  /home/guang/work/PTP/PTPSim/src/include/HitmanProc.hh \
  /home/guang/work/PTP/PTPSim/src/include/NtupleProc.hh \
  /home/guang/work/ratpac-two/install/include/RAT/OutNtupleProc.hh \
@@ -455,14 +470,9 @@ src/CMakeFiles/PTP.dir/Ptp.cc.o: /home/guang/work/PTP/PTPSim/src/Ptp.cc \
  /usr/local/include/Geant4/CLHEP/Random/RandGeneral.h \
  /usr/local/include/Geant4/CLHEP/Random/Random.h \
  /usr/local/include/Geant4/CLHEP/Random/RandomEngine.h \
- /usr/include/c++/11/fstream \
- /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc \
  /usr/local/include/Geant4/CLHEP/Random/RandomEngine.icc \
  /usr/local/include/Geant4/CLHEP/Random/Random.icc \
  /usr/local/include/Geant4/CLHEP/Utility/memory.h \
  /usr/local/include/Geant4/CLHEP/Random/RandGeneral.icc \
  /home/guang/work/ratpac-two/install/include/RAT/GLG4Gen.hh \
- /usr/local/include/Geant4/G4Color.hh \
- /usr/local/include/Geant4/G4Colour.hh
+ /usr/local/include/Geant4/G4Color.hh
